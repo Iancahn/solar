@@ -34,7 +34,10 @@ html{
      overflow-x:hidden;
  }
 
-
+ .container{
+    background: #031829;
+ }
+ 
 `;
 
 export default Globalstyle;
