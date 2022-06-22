@@ -2,11 +2,23 @@ import { createGlobalStyle } from 'styled-components';
 
 const Globalstyle = createGlobalStyle`
 
+//SASS
+
+$font-stack:'Readex Pro', sans-serif;
+$font-body:'Spline Sans', sans-serif;
+$color-one: #06c739;
+$color-two: #fba500;
+$color-three:#031829;
+$color-black: #090909;
+$color-grey: #c1c1c1;
+
 *{
     margin:0;
     padding: 0;
     box-sizing:border-box;
 }
+
+
 
 html{
     @media (max-width: 1700px){

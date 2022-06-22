@@ -3,7 +3,7 @@ import React from 'react';
 import Globalstyle from '../components/GlobalStyle';
 // import components
 
-function Footer() {
+function LatestProject() {
     return (
         <div>
             <div class='container'>
@@ -13,4 +13,4 @@ function Footer() {
     )
 }
 
-export default Footer;
+export default LatestProject;
