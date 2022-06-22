@@ -1,11 +1,13 @@
+import React from 'react';
+
 // Components
-import nav from './component/Nav';
+import Nav from './component/Nav';
 
 function App() {
   return (
     <div className="App">
       <h1>hello</h1>
-      <nav />
+      <Nav />
     </div>
   );
 }
